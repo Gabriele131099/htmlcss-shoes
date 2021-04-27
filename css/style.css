@@ -6,14 +6,25 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* blocchi con 100vh */
+#blocco-1 , #blocco-2 , #blocco-3
+{
+    width: 100%;
+    height: 100vh;
+    font-size: 50px;
+    position: relative;
+}
+
+/* contenitore con i selettori */
 body:first-child
 {
     width: 1280px;
     margin: auto;
 }
 
-/* forma tonda a tutti i div dentro il contenitore con classe ".fissa" */
-.fissa div{
+/* crea la forma della Shortcut" */
+.position-fixed div
+{
     background-color: brown;
     width: 60px;
     text-align: center;
@@ -25,12 +36,14 @@ body:first-child
     margin: 4px;
 }
 
+/* link shortcut */
 a{
     text-decoration: none;
     color: white;
 }
 
-.fissa
+/* posizionamento Shortcut */
+.position-fixed
 {
     position: fixed;
     top: 1%;
@@ -38,6 +51,7 @@ a{
     z-index: 1001;    
 }
 
+/* centra con transform */
 .centra
 {
     position: absolute;
@@ -46,15 +60,8 @@ a{
     transform: translate(-50% , -50%);
 }
 
-#blocco-1 , #blocco-2 , #blocco-3
-{
-    width: 100%;
-    height: 100vh;
-    font-size: 50px;
-    position: relative;
-}
 
-
+/* colore dei blocchi */
 .verde
 {
     background-color:darkcyan;
@@ -68,6 +75,7 @@ a{
     background-color: grey;
 }
 
+/* testo sotto l'immagine */
 p
 {
     text-align: center;
