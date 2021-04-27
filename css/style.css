@@ -1,0 +1,75 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body:first-child
+{
+    width: 1280px;
+    margin: auto;
+}
+
+/* forma tonda a tutti i div dentro il contenitore con classe ".fissa" */
+.fissa div{
+    background-color: brown;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    margin: 4px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.fissa
+{
+    position: fixed;
+    top: 1%;
+    right: 1%;
+    z-index: 1001;    
+}
+
+.centra
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+
+#blocco-1 , #blocco-2 , #blocco-3
+{
+    width: 100%;
+    height: 100vh;
+    font-size: 50px;
+    position: relative;
+}
+
+
+.verde
+{
+    background-color:darkcyan;
+}
+.rosso
+{
+    background-color: darkslateblue;
+}
+.grigio
+{
+    background-color: grey;
+}
+
+p
+{
+    text-align: center;
+    color: darkkhaki;
+}
